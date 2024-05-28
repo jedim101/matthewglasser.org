@@ -88,9 +88,8 @@ export default function HeroParallaxDemo() {
 	return (
 		<>
 			{/* <HeroParallax images={images} /> */}
-			<div className="mx-auto h-screen w-screen  overflow-hidden rounded-md">
+			<div className="mx-auto h-screen w-screen overflow-hidden rounded-md bg-gray-950">
 				<Vortex
-					backgroundColor="black"
 					rangeY={800}
 					particleCount={500}
 					baseHue={150}

@@ -14,7 +14,6 @@ interface VortexProps {
 	rangeSpeed?: number;
 	baseRadius?: number;
 	rangeRadius?: number;
-	backgroundColor?: string;
 }
 
 export const Vortex = (props: VortexProps) => {
@@ -36,7 +35,6 @@ export const Vortex = (props: VortexProps) => {
 	const xOff = 0.00125;
 	const yOff = 0.00125;
 	const zOff = 0.0005;
-	const backgroundColor = props.backgroundColor || "#000000";
 	let tick = 0;
 	const noise3D = createNoise3D();
 	let particleProps = new Float32Array(particlePropsLength);
@@ -101,7 +99,7 @@ export const Vortex = (props: VortexProps) => {
 
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-		ctx.fillStyle = backgroundColor;
+		ctx.fillStyle = "transparent";
 		ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 		drawParticles(ctx);
