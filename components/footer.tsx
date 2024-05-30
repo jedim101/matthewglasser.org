@@ -14,7 +14,7 @@ const socials = [
 
 export default function Footer() {
 	return (
-		<div className="text-slate font-sm flex w-full flex-col items-center border-t border-slate-700/40 bg-slate-500/20 p-10 text-sm font-light text-gray-400">
+		<div className="text-slate font-sm flex w-full flex-col items-center border-t border-zinc-700 bg-zinc-900 p-10 text-sm font-light text-gray-400">
 			<div className="mb-4 flex w-1/3 justify-center space-x-8 border-b border-gray-600 px-10 pb-4 text-base">
 				{links.map((link) => (
 					<Link href={link.href} key={link.display} className="hover:text-gray-200">

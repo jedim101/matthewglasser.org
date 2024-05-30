@@ -36,7 +36,6 @@ export default function Home() {
 					</div>
 				</Vortex>
 			</div>
-			<Footer />
 		</main>
 	);
 }
