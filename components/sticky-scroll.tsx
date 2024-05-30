@@ -79,13 +79,9 @@ export const StickyScroll = ({
 			<Link
 				href={content[activeCard].url}
 				className="sticky top-0 hidden w-96 items-center overflow-hidden duration-150 hover:scale-110 lg:flex">
-				<Image
-					src={content[activeCard].image}
-					width={384}
-					height={216}
-					alt="website image"
-					className="w-full rounded-lg border border-slate-600"
-				/>
+				<div className="aspect-video w-full overflow-hidden rounded-lg border border-slate-600">
+					<Image src={content[activeCard].image} width={384} height={216} alt="project image" className="w-full" />
+				</div>
 			</Link>
 		</motion.div>
 	);
