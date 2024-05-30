@@ -19,11 +19,20 @@ const content = [
 		url: "https://jaybots.org",
 		backgroundColor: "#172554",
 	},
+	{
+		title: "3D Mania Prints",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sunt nobis numquam ipsam tempora voluptas, enim, accusantium ipsa alias maxime esse magnam delectus blanditiis. Ipsa, totam fugit. Tempore expedita sint ullam quis reprehenderit aliquid, voluptates voluptas sequi quidem.",
+		image: "/images/3D Mania Prints.png",
+		url: "https://3dmaniaprints.etsy.com",
+		backgroundColor: "#7f1d1d",
+	},
 ];
 
 export default function Projects() {
 	return (
-		<main className="flex min-h-screen w-screen flex-col items-center bg-gray-900 p-12 pt-24">
+		<main className="flex min-h-screen w-screen flex-col items-center space-y-16 bg-gray-900 p-12 pt-24">
+			<h1 className="text-5xl font-semibold text-white">Projects</h1>
 			<StickyScroll content={content} />
 		</main>
 	);
