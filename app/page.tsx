@@ -21,16 +21,23 @@ export default function Home() {
 					<div className="mt-6 flex flex-col items-center gap-4 sm:flex-row">
 						<Link
 							href="/projects"
-							className="relative rounded-full border border-slate-800 bg-slate-900 px-8 py-2 text-sm text-white transition duration-300 hover:border-slate-700 hover:bg-slate-800">
+							className="relative w-28 rounded-full border border-slate-800 bg-slate-900 py-2 text-center text-sm text-white transition duration-300 hover:border-slate-700 hover:bg-slate-800">
 							<div className="absolute inset-x-0 -top-px mx-auto h-px w-1/2 bg-gradient-to-r  from-transparent via-indigo-500 to-transparent shadow-2xl" />
 							<span className="relative z-20">Projects</span>
 							<div className="absolute inset-x-0 -bottom-px mx-auto h-px w-1/2 bg-gradient-to-r  from-transparent via-indigo-500 to-transparent shadow-2xl" />
 						</Link>
 						<Link
 							href="/contact"
-							className="relative rounded-full border border-slate-800 bg-slate-900 px-8 py-2 text-sm text-white transition duration-300 hover:border-slate-700 hover:bg-slate-800">
+							className="relative w-28 rounded-full border border-slate-800 bg-slate-900 py-2 text-center text-sm text-white transition duration-300 hover:border-slate-700 hover:bg-slate-800">
 							<div className="absolute inset-x-0 -top-px mx-auto h-px w-1/2 bg-gradient-to-r  from-transparent via-indigo-500 to-transparent shadow-2xl" />
 							<span className="relative z-20">Contact</span>
+							<div className="absolute inset-x-0 -bottom-px mx-auto h-px w-1/2 bg-gradient-to-r  from-transparent via-indigo-500 to-transparent shadow-2xl" />
+						</Link>
+						<Link
+							href="/about"
+							className="relative w-28 rounded-full border border-slate-800 bg-slate-900 py-2 text-center text-sm text-white transition duration-300 hover:border-slate-700 hover:bg-slate-800">
+							<div className="absolute inset-x-0 -top-px mx-auto h-px w-1/2 bg-gradient-to-r  from-transparent via-indigo-500 to-transparent shadow-2xl" />
+							<span className="relative z-20">About</span>
 							<div className="absolute inset-x-0 -bottom-px mx-auto h-px w-1/2 bg-gradient-to-r  from-transparent via-indigo-500 to-transparent shadow-2xl" />
 						</Link>
 					</div>

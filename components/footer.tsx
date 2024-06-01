@@ -2,8 +2,8 @@ import Link from "next/link";
 import { GitHub, LinkedIn } from "./svg";
 
 const links = [
-	{ display: "Contact", href: "/contact" },
 	{ display: "Projects", href: "/projects" },
+	{ display: "Contact", href: "/contact" },
 	{ display: "About", href: "/about" },
 ];
 
