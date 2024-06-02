@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GitHub, LinkedIn } from "./svg";
+import { GitHub, LinkedIn, Discord } from "./svg";
 
 const links = [
 	{ display: "Projects", href: "/projects" },
@@ -10,6 +10,7 @@ const links = [
 const socials = [
 	{ icon: <LinkedIn />, href: "https://www.linkedin.com/in/matthew-glasser/" },
 	{ icon: <GitHub />, href: "https://github.com/jedim101" },
+	{ icon: <Discord />, href: "https://discord.com/users/708753489630855198" },
 ];
 
 export default function Footer() {
@@ -25,7 +26,7 @@ export default function Footer() {
 			&copy; 2024 Matthew Glasser. All rights reserved.
 			<div className="flex justify-center space-x-4 pt-4">
 				{socials.map((social) => (
-					<Link href={social.href} key={social.href} className="h-6 w-6 hover:text-gray-200">
+					<Link href={social.href} key={social.href} target="_blank" className="h-6 w-6 hover:text-gray-200">
 						{social.icon}
 					</Link>
 				))}
