@@ -32,7 +32,7 @@ const content = [
 export default function Projects() {
 	return (
 		<main className="flex min-h-screen w-screen flex-col items-center space-y-16 bg-gray-900 p-12 pt-24">
-			<h1 className="text-5xl font-semibold text-white">Projects</h1>
+			<h1 className="text-6xl font-semibold text-white">Projects</h1>
 			<StickyScroll content={content} />
 		</main>
 	);
