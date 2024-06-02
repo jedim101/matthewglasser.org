@@ -5,11 +5,12 @@ export default function About() {
 		<main className="flex min-h-screen w-screen flex-col items-center space-y-16 bg-gray-900 p-12 pt-24">
 			<h1 className="text-6xl font-semibold text-white">About</h1>
 			<h2 className="flex text-4xl font-semibold text-gray-200">
-				<span className="animate-waving-hand mr-2">👋</span>Hi! I'm Matthew
+				<span className="animate-waving-hand mr-2">👋</span>Hi! I&apos;m Matthew
 			</h2>
 
 			<p className="max-w-4xl text-lg text-gray-300">
-				I'm Matthew and I'm a sophomore in high school! I do frontend & backend development. I have worked on many{" "}
+				I&apos;m Matthew and I&apos;m a sophomore in high school! I do frontend & backend development. I have worked on
+				many{" "}
 				<Link href="/projects" className="duration-150hover:text-blue-600 font-semibold text-blue-500">
 					projects
 				</Link>
