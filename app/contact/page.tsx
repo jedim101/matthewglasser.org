@@ -61,7 +61,6 @@ export default function About() {
 					/>
 				</div>
 				<div className="h-px w-full bg-gradient-to-r from-transparent via-gray-500" />
-				{/* <div className="flex justify-center"> */}
 				<button className="group relative block h-10 w-full rounded-md border border-white/10 bg-white/5" type="submit">
 					Send &rarr;
 					<>
@@ -69,7 +68,6 @@ export default function About() {
 						<span className="absolute inset-x-10 -bottom-px mx-auto block h-px w-1/2 bg-gradient-to-r from-transparent via-indigo-500 to-transparent opacity-0 blur-sm transition duration-500 group-hover:opacity-100" />
 					</>
 				</button>
-				{/* </div> */}
 			</form>
 		</main>
 	);
