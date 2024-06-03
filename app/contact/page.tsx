@@ -23,7 +23,20 @@ export default function About() {
 				.
 			</p>
 
-			<form className="w-screen space-y-6 border-y border-white/10 bg-white/5 px-12 py-10 sm:max-w-xl sm:rounded-xl sm:border-x">
+			<form
+				onSubmit={async (e) => {
+					e.preventDefault;
+
+					await fetch("/api/sendEmailToMe", {
+						method: "POST",
+						body: JSON.stringify({
+							email,
+							subject,
+							message,
+						}),
+					});
+				}}
+				className="w-screen space-y-6 border-y border-white/10 bg-white/5 px-12 py-10 sm:max-w-xl sm:rounded-xl sm:border-x">
 				<div className="space-y-2">
 					<label htmlFor="email">Email</label>
 					<input
