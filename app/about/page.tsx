@@ -1,9 +1,10 @@
+import TitleReveal from "@/components/titleReveal";
 import Link from "next/link";
 
 export default function About() {
 	return (
 		<main className="flex min-h-screen w-screen flex-col items-center space-y-16 bg-gray-900 p-12 pt-24">
-			<h1 className="text-6xl font-semibold text-white">About</h1>
+			<TitleReveal className="text-6xl font-semibold text-white" text="About" />
 			<h2 className="flex text-4xl font-semibold text-gray-200">
 				<span className="animate-waving-hand mr-2">👋</span>Hi! I&apos;m Matthew
 			</h2>
