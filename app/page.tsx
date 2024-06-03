@@ -15,7 +15,7 @@ export default function Home() {
 					baseHue={150}
 					baseSpeed={0}
 					className="flex h-full w-full flex-col items-center justify-center  px-2 py-4 md:px-10">
-					<TitleReveal className="text-center text-7xl font-semibold text-white" text="Matthew Glasser" />
+					<TitleReveal className="h-16 text-center text-7xl font-semibold text-white" text="Matthew Glasser" />
 					<p className="mt-6 max-w-xl text-center text-2xl text-gray-200">
 						Full Stack Software Engineer & Web Developer
 					</p>

@@ -11,7 +11,7 @@ export default function About() {
 
 	return (
 		<main className="flex min-h-screen w-screen flex-col items-center space-y-16 bg-gray-900 p-12 pt-24">
-			<TitleReveal className="text-6xl font-semibold text-white" text="Contact" />
+			<TitleReveal className="h-16 text-6xl font-semibold text-white" text="Contact" />
 
 			<p className="max-w-4xl text-center text-lg text-gray-300">
 				You can send me a message here, or email me at{" "}
