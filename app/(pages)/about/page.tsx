@@ -50,19 +50,19 @@ export default function About() {
 					className="duration-150hover:text-blue-600 font-semibold text-blue-500">
 					LinkedIn
 				</Link>
-				, GitHub{" "}
+				,{" "}
 				<Link
 					href="https://github.com/jedim101"
 					target="_blank"
 					className="duration-150hover:text-blue-600 font-semibold text-blue-500">
-					(jedim101)
+					GitHub
 				</Link>
-				, and Discord{" "}
+				, and{" "}
 				<Link
 					href="https://discord.com/users/708753489630855198"
 					target="_blank"
 					className="duration-150hover:text-blue-600 font-semibold text-blue-500">
-					@jedim101
+					Discord
 				</Link>
 				.
 			</p>
