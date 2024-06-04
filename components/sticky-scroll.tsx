@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef } from "react";
+import React, { ReactElement, ReactNode, useRef } from "react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -11,7 +11,7 @@ export const StickyScroll = ({
 }: {
 	content: {
 		title: string;
-		description: string;
+		description: ReactNode;
 		image: string;
 		backgroundColor: string;
 		url: string;
@@ -73,7 +73,7 @@ export const StickyScroll = ({
 							</motion.p>
 						</div>
 					))}
-					<div className="h-10" />
+					<div className="h-14" />
 				</div>
 			</div>
 			<Link
