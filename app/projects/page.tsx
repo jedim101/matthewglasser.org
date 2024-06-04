@@ -9,16 +9,15 @@ const content = [
 		title: "DeAP Learning Labs",
 		description: (
 			<>
-				I am one of the Lead Web Developers at{" "}
+				I am a Lead Web Developers at{" "}
 				<Link
 					href="https://deaplearning.com"
 					target="_blank"
 					className="duration-150hover:text-blue-600 font-semibold text-blue-500">
 					DeAP Learning Labs
 				</Link>
-				, an AI-powered AP study assistant, tutor, and grader. I play a major role in building the website both in
-				designing it and adding functionality. I also lead development in many of our integrations to other services,
-				such as Discord Bots.
+				, an AI-powered AP study assistant, tutor, and grader. I also lead development in many of our integrations to
+				other services, such as Discord Bots.
 			</>
 		),
 		image: "/images/deaplearning-com.png",
@@ -29,8 +28,8 @@ const content = [
 		title: "Jaybots FTC #16700",
 		description: (
 			<>
-				I am currently the CAD Leader of the Jaybots, but I have previously held roles as Manufacturer and Webmaster. I
-				have developed the{" "}
+				I am currently the CAD Leader of the Jaybots, and previously have held roles as Manufacturer and Webmaster. I
+				developed the{" "}
 				<Link
 					href="https://jaybots.org"
 					target="_blank"
@@ -56,8 +55,8 @@ const content = [
 					className="duration-150hover:text-blue-600 font-semibold text-blue-500">
 					3D Mania Prints
 				</Link>
-				, an etsy shop that designs and 3D prints a variety of custom items for sale. I am currently working on updating
-				and adding to the selection of items, creating a company website, and even building my own 3D printers.
+				, an Etsy shop that designs and 3D prints a variety of custom items for sale. I am currently working on updating
+				and adding to the selection of items, creating a website, and even building my own 3D printers.
 			</>
 		),
 		image: "/images/3D Mania Prints.png",
