@@ -15,7 +15,7 @@ export default function TitleReveal({ text, className }: { text: string; classNa
 					text
 						.substring(iterations / 2)
 						.split("")
-						.map((e) => characters[Math.floor(Math.random() * characters.length)])
+						.map((e) => (e === " " ? " " : characters[Math.floor(Math.random() * characters.length)]))
 						.join(""),
 			);
 			console.log(iterations);

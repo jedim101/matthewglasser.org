@@ -14,8 +14,12 @@ export default function Home() {
 					particleCount={300}
 					baseHue={150}
 					baseSpeed={0}
-					className="flex h-full w-full flex-col items-center justify-center  px-2 py-4 md:px-10">
-					<TitleReveal className="h-16 text-center text-7xl font-semibold text-white" text="Matthew Glasser" />
+					className="flex h-full w-full flex-col items-center justify-center px-2 py-4 md:px-10">
+					<TitleReveal
+						className="flex h-[1/2vh] items-end text-center text-7xl font-semibold text-white"
+						text="Matthew Glasser"
+					/>
+					{/* <div className="flex h-full flex-col items-center"> */}
 					<p className="mt-6 max-w-xl text-center text-2xl text-gray-200">
 						Full Stack Software Engineer & Web Developer
 					</p>
@@ -42,6 +46,7 @@ export default function Home() {
 							<div className="absolute inset-x-0 -bottom-px mx-auto h-px w-1/2 bg-gradient-to-r  from-transparent via-indigo-500 to-transparent shadow-2xl" />
 						</Link>
 					</div>
+					{/* </div> */}
 				</Vortex>
 			</div>
 		</main>

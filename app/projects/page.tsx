@@ -67,7 +67,7 @@ const content = [
 
 export default function Projects() {
 	return (
-		<main className="flex min-h-screen w-screen flex-col items-center space-y-16 bg-gray-900 p-12 pt-24">
+		<main className="flex min-h-screen w-screen flex-col items-center space-y-16 bg-gray-900 pt-24">
 			<TitleReveal className="h-16 text-6xl font-semibold text-white" text="Projects" />
 			<StickyScroll content={content} />
 		</main>

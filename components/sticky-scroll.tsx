@@ -45,7 +45,7 @@ export const StickyScroll = ({
 			animate={{
 				backgroundColor: content.map((item) => item.backgroundColor)[activeCard],
 			}}
-			className="relative h-[30rem] max-w-6xl justify-center space-x-10 overflow-y-auto rounded-xl border border-slate-600 p-10 md:flex"
+			className="relative h-[30rem] w-screen max-w-4xl justify-center space-x-10 overflow-y-auto border-y border-slate-600 p-10 sm:flex md:rounded-xl md:border-x"
 			ref={ref}>
 			<div className="div relative flex items-start px-4">
 				<div className="h-fit max-w-2xl">
@@ -68,7 +68,7 @@ export const StickyScroll = ({
 								animate={{
 									opacity: activeCard === index ? 1 : 0.3,
 								}}
-								className="text-kg mt-10 max-w-sm text-slate-300">
+								className="text-kg mt-10 text-slate-300 md:max-w-sm">
 								{item.description}
 							</motion.p>
 						</div>
@@ -79,7 +79,7 @@ export const StickyScroll = ({
 			<Link
 				href={content[activeCard].url}
 				target="_blank"
-				className="sticky top-0 hidden w-96 items-center overflow-hidden duration-150 hover:scale-110 lg:flex">
+				className="sticky top-0 hidden w-96 items-center overflow-hidden duration-150 hover:scale-110 md:flex">
 				<div className="aspect-video w-full overflow-hidden rounded-lg border border-slate-600">
 					<Image src={content[activeCard].image} width={384} height={216} alt="project image" className="w-full" />
 				</div>
