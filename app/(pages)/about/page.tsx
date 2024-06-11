@@ -33,35 +33,35 @@ export default function About() {
 
 			<p className="max-w-4xl text-lg text-gray-300">
 				You can reach out at{" "}
-				<Link href="/contact" className="duration-150hover:text-blue-600 font-semibold text-blue-500">
+				<Link href="/contact" className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
 					matthewglasser.org/contact
 				</Link>{" "}
 				or send me an email at{" "}
 				<Link
 					href="mailto:matthew@matthewglasser.org"
 					target="_blank"
-					className="duration-150hover:text-blue-600 font-semibold text-blue-500">
+					className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
 					matthew@matthewglasser.org
 				</Link>
 				. You can also find me on{" "}
 				<Link
 					href="https://linkedin.com/in/matthew-glasser"
 					target="_blank"
-					className="duration-150hover:text-blue-600 font-semibold text-blue-500">
+					className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
 					LinkedIn
 				</Link>
 				,{" "}
 				<Link
 					href="https://github.com/jedim101"
 					target="_blank"
-					className="duration-150hover:text-blue-600 font-semibold text-blue-500">
+					className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
 					GitHub
 				</Link>
 				, and{" "}
 				<Link
 					href="https://discord.com/users/708753489630855198"
 					target="_blank"
-					className="duration-150hover:text-blue-600 font-semibold text-blue-500">
+					className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
 					Discord
 				</Link>
 				.
