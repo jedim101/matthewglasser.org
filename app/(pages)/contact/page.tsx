@@ -1,6 +1,7 @@
 "use client";
 
 import TitleReveal from "@/components/titleReveal";
+import { sendEmails } from "@/lib/serverActions";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -28,14 +29,15 @@ export default function About() {
 				onSubmit={async (e) => {
 					e.preventDefault;
 
-					await fetch("/api/sendEmailToMe", {
-						method: "POST",
-						body: JSON.stringify({
-							email,
-							subject,
-							message,
-						}),
-					});
+					// await fetch("/api/sendEmailToMe", {
+					// 	method: "POST",
+					// 	body: JSON.stringify({
+					// 		email,
+					// 		subject,
+					// 		message,
+					// 	}),
+					// });
+					sendEmails(email, subject, message);
 				}}
 				className="w-screen space-y-6 border-y border-white/10 bg-white/5 px-12 py-10 sm:max-w-xl sm:rounded-xl sm:border-x">
 				<div className="space-y-2">
