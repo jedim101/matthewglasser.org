@@ -12,7 +12,7 @@ export async function POST(request: NextRequest) {
 		.parse(requestJSON);
 
 	resend.emails.send({
-		from: "onboarding@resend.dev",
+		from: "matthew@matthewglasser.org",
 		to: "matthewsglasser@gmail.com",
 		subject: subject,
 		html: `<p>${email}\n\n${message}</p>`,
