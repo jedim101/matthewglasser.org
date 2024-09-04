@@ -11,6 +11,8 @@ export async function POST(request: NextRequest) {
 		.object({ email: z.string().email(), subject: z.string(), message: z.string() })
 		.parse(requestJSON);
 
+	console.log(process.env.RESEND_API_KEY);
+
 	resend.emails.send({
 		from: "matthew@matthewglasser.org",
 		to: "matthewsglasser@gmail.com",
@@ -18,5 +20,5 @@ export async function POST(request: NextRequest) {
 		html: `<p>${email}\n\n${message}</p>`,
 	});
 
-	return NextResponse.json({});
+	return NextResponse.json({ email, subject, message });
 }
