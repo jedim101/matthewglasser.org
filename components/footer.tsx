@@ -24,7 +24,7 @@ export default function Footer() {
 				))}
 			</div>
 			<div className="h-px w-96 bg-gradient-to-r from-transparent via-gray-600" />
-			<p>&copy; 2024 Matthew Glasser. All rights reserved.</p>
+			<p>&copy;2025 Matthew Glasser. All rights reserved.</p>
 			<div className="flex justify-center space-x-4">
 				{socials.map((social) => (
 					<Link href={social.href} key={social.href} target="_blank" className="h-6 w-6 hover:text-gray-200">

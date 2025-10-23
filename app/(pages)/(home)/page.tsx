@@ -13,16 +13,14 @@ export default function Home() {
 					rangeY={800}
 					particleCount={300}
 					baseHue={150}
-					baseSpeed={0}
+					baseSpeed={-1}
 					className="flex h-full w-full flex-col items-center justify-center px-2 py-4 md:px-10">
 					<TitleReveal
 						className="flex h-[1/2vh] items-end text-center text-7xl font-semibold text-white"
 						text="Matthew Glasser"
 					/>
 					{/* <div className="flex h-full flex-col items-center"> */}
-					<p className="mt-6 max-w-xl text-center text-2xl text-gray-200">
-						Full Stack Software Engineer & Web Developer
-					</p>
+					<p className="mt-6 max-w-xl text-center text-2xl text-gray-200">Mechanical Engineer & Software Developer</p>
 					<div className="mt-6 flex flex-col items-center gap-4 sm:flex-row">
 						<Link
 							href="/projects"

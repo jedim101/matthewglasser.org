@@ -6,38 +6,19 @@ import Link from "next/link";
 
 const content = [
 	{
-		title: "DeAP Learning Labs",
-		description: (
-			<>
-				I work as a Lead Web Developer at{" "}
-				<Link
-					href="https://deaplearning.com"
-					target="_blank"
-					className="duration-150hover:text-blue-600 font-semibold text-blue-500">
-					DeAP Learning Labs
-				</Link>
-				, an AI-powered AP study assistant, tutor, and grader. I also oversee the development of various integrations
-				with other services, such as Discord Bots.
-			</>
-		),
-		image: "/images/deaplearning-com.png",
-		url: "https://deaplearning.com",
-		backgroundColor: "#020617",
-	},
-	{
 		title: "Jaybots FTC #16700",
 		description: (
 			<>
-				I currently serve as the CAD Leader of the Jaybots. Previously, I held positions as a Manufacturer and
-				Webmaster. I was responsible for developing the{" "}
+				I am the President of the Jaybots. I have served as CAD Leader and Manufacturer. In the 2024-25 season, The
+				Jaybots qualified for the FTC World Championship. I was responsible for designing the robot, and I have played a
+				significant role in building, coding, and running outreach events. View more at{" "}
 				<Link
 					href="https://jaybots.org"
 					target="_blank"
-					className="duration-150hover:text-blue-600 font-semibold text-blue-500">
-					team&apos;s website
-				</Link>{" "}
-				and played a significant role in designing, building, and coding the robot and participating in outreach events
-				within our community.
+					className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
+					jaybots.org
+				</Link>
+				.
 			</>
 		),
 		image: "/images/jaybots-org.png",
@@ -45,10 +26,36 @@ const content = [
 		backgroundColor: "#172554",
 	},
 	{
+		title: "Ember Learning",
+		description: (
+			<>
+				I am the Lead Web Developer at Ember Learning, an AI-powered AP study assistant, tutor, and grader. I oversee
+				the development of{" "}
+				<Link
+					href="https://emberlearning.org"
+					target="_blank"
+					className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
+					emberlearning.org
+				</Link>
+				, an AI-powered tool for teachers, and{" "}
+				<Link
+					href="https://deaplearning.com"
+					target="_blank"
+					className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
+					deaplearning.com
+				</Link>
+				, an AI-powered AP study assistant, tutor, and grader.
+			</>
+		),
+		image: "/images/emberlearning-org.png",
+		url: "https://emberlearning.org",
+		backgroundColor: "#92400e",
+	},
+	{
 		title: "3D Mania Prints",
 		description: (
 			<>
-				In 2023, I founded{" "}
+				I founded{" "}
 				<Link
 					href="https://3dmaniaprints.etsy.com"
 					target="_blank"
@@ -56,7 +63,7 @@ const content = [
 					3D Mania Prints
 				</Link>
 				, an Etsy shop that designs and 3D prints a variety of custom items for sale. Currently, I am working on
-				updating and expanding our selection of items, creating a website, and even building custom 3D printers.
+				updating and expanding our selection of items.
 			</>
 		),
 		image: "/images/3D Mania Prints.png",

@@ -10,7 +10,7 @@ export const StickyScroll = ({
 	contentClassName,
 }: {
 	content: {
-		title: string;
+		title: ReactNode;
 		description: ReactNode;
 		image: string;
 		backgroundColor: string;
@@ -50,7 +50,7 @@ export const StickyScroll = ({
 			<div className="div relative flex items-start px-4">
 				<div className="h-fit max-w-2xl">
 					{content.map((item, index) => (
-						<div key={item.title + index} className="my-20">
+						<div key={index} className="my-20">
 							<motion.h2
 								initial={{
 									opacity: 0,
