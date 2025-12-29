@@ -10,13 +10,24 @@ export default function About() {
 			</h2>
 
 			<p className="max-w-4xl text-lg text-gray-300">
-				I&apos;m Matthew and I&apos;m a senior in high school! I&apos;m the President of the Jaybots, an FTC robotics
-				team. I plan to major in Mechanical Engineering, and I have worked on many{" "}
+				I&apos;m Matthew, and I&apos;m a senior in high school! I&apos;m the President of the Jaybots, FTC robotics team
+				#16700. I plan to major in Mechanical Engineering, and I have worked on many{" "}
 				<Link href="/projects" className="duration-150hover:text-blue-600 font-semibold text-blue-500">
 					projects
 				</Link>
 				, including building robots, websites, and other applications. In addition to Mechanical Engineering and
-				Robotics, I love programming.
+				Robotics, I love Programming.
+			</p>
+
+			<p className="max-w-4xl text-lg text-gray-300">
+				I&apos;m proficient in CAD, primarily in OnShape. I have extensive experience with 3D printing, and I have
+				worked with other manufacturing processes, including CNC routing, waterjet cutting, and manual machining with
+				mills and lathes.
+			</p>
+			<p className="max-w-4xl text-lg text-gray-300">
+				I&apos;m proficient in JavaScript, TypeScript, Python, Java, HTML/CSS, and Kotlin. I primarily use Next.js and
+				React for web development, and MongoDB and Prisma for databases. I have also worked with Arduino and Raspberry
+				Pi.
 			</p>
 
 			<p className="max-w-4xl text-lg text-gray-300">

@@ -10,7 +10,7 @@ const content = [
 		description: (
 			<>
 				I am the President of the Jaybots. I have served as CAD Leader and Manufacturer. In the 2024-25 season, The
-				Jaybots qualified for the FTC World Championship. I was responsible for designing the robot, and I have played a
+				Jaybots qualified for the FTC World Championship. I was responsible for designing the robot, and I have had a
 				significant role in building, coding, and running outreach events. View more at{" "}
 				<Link
 					href="https://jaybots.org"
