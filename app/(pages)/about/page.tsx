@@ -20,14 +20,14 @@ export default function About() {
 			</p>
 
 			<p className="max-w-4xl text-lg text-gray-300">
-				I&apos;m proficient in CAD, primarily in OnShape. I have extensive experience with 3D printing, and I have
-				worked with other manufacturing processes, including CNC routing, waterjet cutting, and manual machining with
-				mills and lathes.
+				I&apos;m proficient in CAD, primarily in OnShape. I&apos;m also proficient in JavaScript, TypeScript, Python,
+				Java, HTML/CSS, and Kotlin. I primarily use Next.js and React for web development, and MongoDB and Prisma for
+				databases. I have also worked with Arduino and Raspberry Pi.
 			</p>
+
 			<p className="max-w-4xl text-lg text-gray-300">
-				I&apos;m proficient in JavaScript, TypeScript, Python, Java, HTML/CSS, and Kotlin. I primarily use Next.js and
-				React for web development, and MongoDB and Prisma for databases. I have also worked with Arduino and Raspberry
-				Pi.
+				I have extensive hands-on experience with 3D printing, and I have worked with other manufacturing processes,
+				including CNC routing, waterjet cutting, and manual machining with mills and lathes.
 			</p>
 
 			<p className="max-w-4xl text-lg text-gray-300">
