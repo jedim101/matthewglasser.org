@@ -70,6 +70,21 @@ const content = [
 		url: "https://3dmaniaprints.etsy.com",
 		backgroundColor: "#7f1d1d",
 	},
+	{
+		title: "Eagle Scout Project",
+		description: (
+			<>
+				I worked with my school&apos;s administrators to divide the school into 12 zones. I led volunteers in painting
+				colored stripes on the walls to indicate each zone, helping new students, visitors, and emergency responders
+				navigate the building. I also created maps with the colored zones, AED and first aid kit locations, and
+				emergency exit information. These maps were given to incoming freshmen, posted around the school, and provided
+				to the local police and fire departments.
+			</>
+		),
+		image: "/images/Eagle Scout.png",
+		url: "",
+		backgroundColor: "#14532d",
+	},
 ];
 
 export default function Projects() {

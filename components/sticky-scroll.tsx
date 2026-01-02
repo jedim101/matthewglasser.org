@@ -14,7 +14,7 @@ export const StickyScroll = ({
 		description: ReactNode;
 		image: string;
 		backgroundColor: string;
-		url: string;
+		url?: string;
 	}[];
 	contentClassName?: string;
 }) => {
@@ -73,17 +73,25 @@ export const StickyScroll = ({
 							</motion.p>
 						</div>
 					))}
-					<div className="h-14" />
+					{/* <div className="h-14" /> */}
 				</div>
 			</div>
-			<Link
-				href={content[activeCard].url}
-				target="_blank"
-				className="sticky top-0 hidden w-96 items-center overflow-hidden duration-150 hover:scale-110 md:flex">
-				<div className="aspect-video w-full overflow-hidden rounded-lg border border-slate-600">
-					<Image src={content[activeCard].image} width={384} height={216} alt="project image" className="w-full" />
+			{content[activeCard].url ? (
+				<Link
+					href={content[activeCard].url}
+					target="_blank"
+					className="sticky top-0 hidden w-96 items-center overflow-hidden duration-150 hover:scale-110 md:flex">
+					<div className="aspect-video w-full overflow-hidden rounded-lg border border-slate-600">
+						<Image src={content[activeCard].image} width={384} height={216} alt="project image" className="w-full" />
+					</div>
+				</Link>
+			) : (
+				<div className="sticky top-0 hidden w-96 items-center overflow-hidden md:flex">
+					<div className="aspect-video w-full overflow-hidden rounded-lg border border-slate-600">
+						<Image src={content[activeCard].image} width={384} height={216} alt="project image" className="w-full" />
+					</div>
 				</div>
-			</Link>
+			)}
 		</motion.div>
 	);
 };

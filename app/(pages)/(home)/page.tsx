@@ -20,7 +20,9 @@ export default function Home() {
 						text="Matthew Glasser"
 					/>
 					{/* <div className="flex h-full flex-col items-center"> */}
-					<p className="mt-6 max-w-xl text-center text-2xl text-gray-200">Mechanical Engineer & Software Developer</p>
+					<p className="mt-6 max-w-2xl text-center text-2xl text-gray-200">
+						Eagle Scout, Mechanical Engineer, Software Developer
+					</p>
 					<div className="mt-6 flex flex-col items-center gap-4 sm:flex-row">
 						<Link
 							href="/projects"
