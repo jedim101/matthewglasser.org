@@ -7,6 +7,15 @@ export default function Rubiks() {
 			<TitleReveal className="h-16 text-6xl font-semibold text-white" text="Rubik's Cube" />
 
 			<video src="/videos/rubiks.mov" controls className=" h-[100vh] rounded-lg"></video>
+
+			<p>
+				View the full portfolio here:{" "}
+				<Link
+					href="/portfolio/Rubik's Cube Portfolio.pdf"
+					className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
+					Rubik&apos;s Cube Portfolio
+				</Link>
+			</p>
 		</main>
 	);
 }

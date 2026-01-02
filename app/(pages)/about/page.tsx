@@ -12,7 +12,7 @@ export default function About() {
 			<p className="max-w-4xl text-lg text-gray-300">
 				I&apos;m Matthew, and I&apos;m an Eagle Scout and senior in high school! I&apos;m the President of the Jaybots,
 				FTC robotics team #16700. I plan to major in Mechanical Engineering, and I have worked on many{" "}
-				<Link href="/projects" className="duration-150hover:text-blue-600 font-semibold text-blue-500">
+				<Link href="/projects" className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
 					projects
 				</Link>
 				, including building robots, websites, and other applications. In addition to Mechanical Engineering and
