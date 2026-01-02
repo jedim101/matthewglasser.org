@@ -5,12 +5,13 @@ const links = [
 	{ display: "Projects", href: "/projects" },
 	{ display: "Contact", href: "/contact" },
 	{ display: "About", href: "/about" },
+	{ display: "Portfolio", href: "/portfolio" },
 ];
 
 const socials = [
 	{ icon: <LinkedIn />, href: "https://www.linkedin.com/in/matthew-glasser/" },
 	{ icon: <GitHub />, href: "https://github.com/jedim101" },
-	{ icon: <Discord />, href: "https://discord.com/users/708753489630855198" },
+	// { icon: <Discord />, href: "https://discord.com/users/708753489630855198" },
 ];
 
 export default function Footer() {
