@@ -8,7 +8,7 @@ export default function Gripper() {
 
 			<video src="/videos/gripper.mp4" controls className=" h-[100vh] rounded-lg"></video>
 
-			<p>
+			<p className="text-gray-300">
 				View the full portfolio here:{" "}
 				<Link
 					href="/portfolio/Gripper Design Portfolio.pdf"

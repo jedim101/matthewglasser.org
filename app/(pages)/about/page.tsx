@@ -10,8 +10,8 @@ export default function About() {
 			</h2>
 
 			<p className="max-w-4xl text-lg text-gray-300">
-				I&apos;m Matthew, and I&apos;m an Eagle Scout and senior in high school! I&apos;m the President of the Jaybots,
-				FTC robotics team #16700. I plan to major in Mechanical Engineering, and I have worked on many{" "}
+				I&apos;m Matthew, and I&apos;m an Eagle Scout and a senior in high school! I&apos;m the President of the
+				Jaybots, FTC robotics team #16700. I plan to major in Mechanical Engineering, and I have worked on many{" "}
 				<Link href="/projects" className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
 					projects
 				</Link>

@@ -8,7 +8,7 @@ export default function Rubiks() {
 
 			<video src="/videos/rubiks.mov" controls className=" h-[100vh] rounded-lg"></video>
 
-			<p>
+			<p className="text-gray-300">
 				View the full portfolio here:{" "}
 				<Link
 					href="/portfolio/Rubik's Cube Portfolio.pdf"

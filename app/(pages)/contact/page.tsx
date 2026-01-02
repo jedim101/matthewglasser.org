@@ -35,7 +35,7 @@ export default function Contact() {
 						data-cal-config='{"layout":"month_view","theme":"dark"}'>
 						<div className="flex flex-col items-center gap-2">
 							<CalendarDaysIcon className="size-16 text-indigo-700" />
-							<span className="text-xl font-bold">Book a Meeting</span>
+							<span className="text-xl font-bold text-gray-200">Book a Meeting</span>
 						</div>
 					</button>
 				</div>
@@ -46,7 +46,7 @@ export default function Contact() {
 					<div className="relative z-50 flex h-full w-full flex-col items-center justify-center space-y-24 rounded-xl border border-slate-700 bg-gray-900 p-12">
 						<div className="flex flex-col items-center gap-2">
 							<EnvelopeIcon className="size-16 text-indigo-700" />
-							<span className="text-xl font-bold">Email Me</span>
+							<span className="text-xl font-bold text-gray-200">Email Me</span>
 						</div>
 					</div>
 				</Link>
