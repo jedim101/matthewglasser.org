@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import Footer from "@/components/footer";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,9 +20,11 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				{children}
-				<Footer />
-				<Analytics />
+				<Suspense>
+					{children}
+					<Footer />
+					<Analytics />
+				</Suspense>
 			</body>
 		</html>
 	);
