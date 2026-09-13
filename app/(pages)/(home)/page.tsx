@@ -21,7 +21,7 @@ export default function Home() {
 					/>
 					{/* <div className="flex h-full flex-col items-center"> */}
 					<p className="mt-6 max-w-2xl text-center text-2xl text-gray-200">
-						Eagle Scout, Mechanical Engineer, Software Developer
+						Georgia Tech Class of 2029 Mechanical Engineer
 					</p>
 					<div className="mt-6 flex flex-col items-center gap-4 sm:flex-row">
 						<Link

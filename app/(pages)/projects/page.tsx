@@ -9,9 +9,10 @@ const content = [
 		title: "Jaybots FTC #16700",
 		description: (
 			<>
-				I am the President of the Jaybots. I have served as CAD Leader and Manufacturer. In the 2024-25 season, The
-				Jaybots qualified for the FTC World Championship. I was responsible for designing the robot, and I have had a
-				significant role in building, coding, and running outreach events. View more at{" "}
+				I served as President, CAD Leader, and Manufacturer of FIRST Tech Challenge team #16700. In the 2024-25 season,
+				The Jaybots qualified for the FTC World Championship, and in the 2025-26 season, we qualified fo the Canada Cup
+				of Robotics in Niagara Falls. I was responsible for designing the robot, and I have had a significant role in
+				building, coding, and running outreach events. View more at{" "}
 				<Link
 					href="https://jaybots.org"
 					target="_blank"
@@ -74,11 +75,11 @@ const content = [
 		title: "Eagle Scout Project",
 		description: (
 			<>
-				I worked with my school&apos;s administrators to divide the school into 12 zones. I led volunteers in painting
-				colored stripes on the walls to indicate each zone, helping new students, visitors, and emergency responders
-				navigate the building. I also created maps with the colored zones, AED and first aid kit locations, and
-				emergency exit information. These maps were given to incoming freshmen, posted around the school, and provided
-				to the local police and fire departments.
+				I worked with my high school&apos;s administrators to divide the school into 12 zones. I led volunteers in
+				painting colored stripes on the walls to indicate each zone, helping new students, visitors, and emergency
+				responders navigate the building. I also created maps with the colored zones, AED and first aid kit locations,
+				and emergency exit information. These maps were given to incoming freshmen, posted around the school, and
+				provided to the local police and fire departments.
 			</>
 		),
 		image: "/images/Eagle Scout.png",

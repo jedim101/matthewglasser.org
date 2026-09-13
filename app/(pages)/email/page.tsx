@@ -10,6 +10,8 @@ export default function Email() {
 	const [subject, setSubject] = useState("");
 	const [message, setMessage] = useState("");
 
+	const [emailStatus, setEmailStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+
 	return (
 		<main className="flex min-h-screen w-screen flex-col items-center space-y-16 bg-gray-900 p-12 pt-24">
 			<TitleReveal className="h-16 text-6xl font-semibold text-white" text="Email" />
@@ -26,21 +28,12 @@ export default function Email() {
 			</p>
 
 			<form
-				onSubmit={async (e) => {
-					e.preventDefault;
-
-					// await fetch("/api/sendEmailToMe", {
-					// 	method: "POST",
-					// 	body: JSON.stringify({
-					// 		email,
-					// 		subject,
-					// 		message,
-					// 	}),
-					// });
-					sendEmails(email, subject, message);
-				}}
-				className="w-screen space-y-6 border-y border-white/10 bg-white/5 px-12 py-10 sm:max-w-xl sm:rounded-xl sm:border-x">
+				className={`relative w-screen space-y-6 overflow-hidden border-y border-white/10 bg-white/5 px-12 pb-10 transition-all duration-300 sm:max-w-xl sm:rounded-xl sm:border-x ${emailStatus === "success" ? "pt-20" : "pt-4"}`}>
 				<div className="space-y-2">
+					<div
+						className={`absolute left-0 flex h-16 w-full items-center justify-center bg-green-600 transition-all duration-300 ${emailStatus === "success" ? "top-0" : "-top-full"}`}>
+						<p className="text-center text-lg text-gray-800">Email sent successfully!</p>
+					</div>
 					<label htmlFor="email">Email</label>
 					<input
 						id="email"
@@ -77,7 +70,27 @@ export default function Email() {
 					/>
 				</div>
 				<div className="h-px w-full bg-gradient-to-r from-transparent via-gray-500" />
-				<button className="group relative block h-10 w-full rounded-md border border-white/10 bg-white/5" type="submit">
+				<button
+					className="group relative block h-10 w-full rounded-md border border-white/10 bg-white/5"
+					type="button"
+					onClick={async (e) => {
+						e.preventDefault;
+
+						// await fetch("/api/sendEmailToMe", {
+						// 	method: "POST",
+						// 	body: JSON.stringify({
+						// 		email,
+						// 		subject,
+						// 		message,
+						// 	}),
+						// });
+						setEmailStatus("loading");
+						await sendEmails(email, subject, message);
+						setEmailStatus("success");
+						setTimeout(() => {
+							setEmailStatus("idle");
+						}, 3000);
+					}}>
 					Send &rarr;
 					<>
 						<span className="absolute inset-x-0 -bottom-px block h-px w-full bg-gradient-to-r from-transparent via-cyan-500 to-transparent opacity-0 transition duration-500 group-hover:opacity-100" />

@@ -10,24 +10,19 @@ export default function About() {
 			</h2>
 
 			<p className="max-w-4xl text-lg text-gray-300">
-				I&apos;m Matthew, an Eagle Scout and a high school senior! I&apos;m the President of the Jaybots, FTC robotics
-				team #16700. I plan to major in Mechanical Engineering, and I have worked on many{" "}
+				I&apos;m Matthew, a sophomore at Georgia Tech studying Mechanical Engineering. I have worked on many{" "}
 				<Link href="/projects" className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
 					projects
 				</Link>
 				, including building robots, websites, and other applications. In addition to Mechanical Engineering and
-				Robotics, I love Programming.
+				Robotics, I love Computer Science. I&apos;m also an Eagle Scout!
 			</p>
 
 			<p className="max-w-4xl text-lg text-gray-300">
-				I&apos;m proficient in CAD, primarily in OnShape. I&apos;m also proficient in JavaScript, TypeScript, Python,
-				Java, HTML/CSS, and Kotlin. I primarily use Next.js and React for web development, and MongoDB and Prisma for
-				databases. I have also worked with Arduino and Raspberry Pi.
-			</p>
-
-			<p className="max-w-4xl text-lg text-gray-300">
-				I have extensive hands-on experience with 3D printing, and I have worked with other manufacturing processes,
-				including CNC routing, waterjet cutting, and manual machining with mills and lathes.
+				I&apos;m proficient in CAD, including OnShape, SolidWorks, Fusion 360, and Blender. I have experience
+				manufacturing parts with 3D Printing (FDM & SLA), CNC Machining (Router, Waterjet, Mill), and Manual Machining
+				(Mill, Lathe). I have experience with programming languages including C++, MATLAB, Python, Java, JavaScript, and
+				more.
 			</p>
 
 			<p className="max-w-4xl text-lg text-gray-300">
