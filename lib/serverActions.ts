@@ -17,7 +17,7 @@ export async function sendEmails(email: string, subject: string, message: string
 		await resend.emails.send({
 			from: "Matthew Glasser <matthew@matthewglasser.org>",
 			to: email.trim(),
-			reply_to: "matthew@matthewglasser.org",
+			reply_to: "Matthew Glasser <matthew@matthewglasser.org>",
 			subject: `Message Received: ${subject.trim()}`,
 			text: "Thank you for contacting me! I will get back to you as soon as possible.\n\nBest regards,\nMatthew Glasser",
 		});
