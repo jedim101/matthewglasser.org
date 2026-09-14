@@ -11,6 +11,11 @@ module.exports = {
 				destination: "https://cal.com/matthewglasser/30min",
 				permanent: true,
 			},
+			{
+				source: "/resume",
+				destination: "/resume.pdf",
+				permanent: true,
+			},
 		];
 	},
 };
