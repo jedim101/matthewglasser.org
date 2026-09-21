@@ -10,7 +10,7 @@ export default function About() {
 			</h2>
 
 			<p className="max-w-4xl text-lg text-gray-300">
-				I&apos;m Matthew, a sophomore at Georgia Tech studying Mechanical Engineering. I have worked on many{" "}
+				I&apos;m Matthew, a Mechanical Engineer at Georgia Tech (Class of 2029). I have worked on many{" "}
 				<Link href="/projects" className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
 					projects
 				</Link>
@@ -57,6 +57,14 @@ export default function About() {
 					target="_blank"
 					className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
 					Discord
+				</Link>
+				.
+			</p>
+
+			<p className="max-w-4xl text-lg text-gray-300">
+				View my resume{" "}
+				<Link href="/resume" className="font-semibold text-blue-500 duration-150 hover:text-blue-600">
+					here
 				</Link>
 				.
 			</p>

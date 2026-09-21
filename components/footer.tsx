@@ -2,10 +2,12 @@ import Link from "next/link";
 import { GitHub, LinkedIn, Discord } from "./svg";
 
 const links = [
+	{ display: "Home", href: "/" },
 	{ display: "Projects", href: "/projects" },
 	{ display: "Contact", href: "/contact" },
 	{ display: "About", href: "/about" },
-	{ display: "Portfolio", href: "/portfolio" },
+	{ display: "Resume", href: "/resume" },
+	// { display: "Portfolio", href: "/portfolio" },
 ];
 
 const socials = [

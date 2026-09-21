@@ -9,10 +9,10 @@ const content = [
 		title: "Jaybots FTC #16700",
 		description: (
 			<>
-				I served as President, CAD Leader, and Manufacturer of FIRST Tech Challenge team #16700. In the 2024-25 season,
-				The Jaybots qualified for the FTC World Championship, and in the 2025-26 season, we qualified fo the Canada Cup
-				of Robotics in Niagara Falls. I was responsible for designing the robot, and I have had a significant role in
-				building, coding, and running outreach events. View more at{" "}
+				I served as President, CAD Leader, and Manufacturer of FIRST Tech Challenge team #16700 (2022-2026). In the
+				2024-25 season, The Jaybots qualified for the FTC World Championship, and in the 2025-26 season, we qualified
+				for the Canada Cup of Robotics in Niagara Falls. I was responsible for designing the robot, and I have had a
+				significant role in building, coding, and running outreach events. View more at{" "}
 				<Link
 					href="https://jaybots.org"
 					target="_blank"
@@ -22,7 +22,7 @@ const content = [
 				.
 			</>
 		),
-		image: "/images/jaybots-org.png",
+		image: "/images/hydra.png",
 		url: "https://jaybots.org",
 		backgroundColor: "#172554",
 	},
@@ -30,8 +30,8 @@ const content = [
 		title: "Ember Learning",
 		description: (
 			<>
-				I am the Lead Web Developer at Ember Learning, an AI-powered AP study assistant, tutor, and grader. I oversee
-				the development of{" "}
+				I am the Lead Web Developer at Ember Learning (2024-Present), an AI-powered AP study assistant, tutor, and
+				grader. I oversee the development of{" "}
 				<Link
 					href="https://emberlearning.org"
 					target="_blank"
@@ -64,7 +64,7 @@ const content = [
 					3D Mania Prints
 				</Link>
 				, an Etsy shop that designs and 3D prints a variety of custom items for sale. Currently, I am working on
-				updating and expanding our selection of items.
+				updating and expanding our selection of items. (2023-Present)
 			</>
 		),
 		image: "/images/3D Mania Prints.png",
