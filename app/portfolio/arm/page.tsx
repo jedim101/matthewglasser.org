@@ -29,7 +29,7 @@ export default function Arm() {
 				</div>
 			</div>
 			<p className="text-white">
-				I'm currently building a 5-axis robotic arm using stepper motors, encoders and an ESP32.
+				I&apos;m currently building a 5-axis robotic arm using stepper motors, encoders and an ESP32.
 			</p>
 			<div className="w-full max-w-7xl items-start justify-between space-y-12">
 				<h2 className="text-center font-mono text-4xl font-bold uppercase text-white">First Prototype</h2>
