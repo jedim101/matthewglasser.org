@@ -3,14 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const portfolios = [
-	{ name: "Rubik's Cube", href: "/portfolio/Rubik's Cube Portfolio.pdf", image: "/images/rubiks.jpg" },
-	{
-		name: "Script Generator",
-		href: "/portfolio/Script Generator Portfolio.pdf",
-		image: "/images/script_generator.png",
-	},
+	{ name: "5-Axis Robotic Arm", href: "/portfolio/arm", image: "/portfolio/arm/servo.png" },
 	{ name: "Gripper", href: "/portfolio/Gripper Design Portfolio.pdf", image: "/images/gripper.jpg" },
-	{ name: "Links & Other Projects", href: "/portfolio/Links.pdf" },
+	{ name: "Other Projects", href: "/projects" },
+	{ name: "Resume", href: "/resume" },
 ];
 
 export default function Portfolio() {
